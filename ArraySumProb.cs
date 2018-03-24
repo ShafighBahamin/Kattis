@@ -12,17 +12,12 @@ class ArraySumProb
         int sum = 16;
         Tuple<int, int> ans;
         ans = find(arr, sum);
-        Console.ReadLine();
     }
 
     static Tuple<int, int> find(int[] arr, int sum)
     {
         Tuple<int, int> ans;
         MergeSort(arr, 0, arr.Length-1);
-        for(int k = 0; k< arr.Length; k++)
-        {
-            Console.WriteLine(arr[k]);
-        }
         int mid = (arr.Length / 2);
         int i = 0;
         int j = arr.Length - 1;
