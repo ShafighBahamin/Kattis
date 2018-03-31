@@ -14,7 +14,7 @@ def solve(line, y):
 
 def main():
     
-    #f = open("C:\\Users\\baham\\OneDrive\\Desktop\\mirror-01.in", "r")
+  
     numTests = int(sys.stdin.readline())
     
     
