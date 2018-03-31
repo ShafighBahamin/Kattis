@@ -29,7 +29,6 @@ def solve(num):
 
 
 def main():
-    #f = open("C:\\Users\\baham\\OneDrive\\Desktop\\sample.in", "r")
     for i in sys.stdin:
         solve(int(i))
 
