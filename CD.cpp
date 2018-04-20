@@ -3,12 +3,6 @@
 
 #include "stdafx.h"
 #include <iostream>
-#include <vector>
-#include <string>
-#include <sstream>
-#include <iterator>
-#include <fstream>
-#include <list>
 
 const int MAX_SIZE = 1000100;
 
