@@ -39,10 +39,6 @@ class Program
 
     private static int computePenalty(int location)
     {
-        //if (penalty.ContainsKey(location))
-        //{
-        //    return penalty[location];
-        //}
         if(location == hotels.Count)
         {
             return 0;
@@ -59,7 +55,6 @@ class Program
             {
                 if (i == 0)
                 {
-
                 }
                 b = ((400 - (hotels[i] - hotels[j])) * (400 - (hotels[i] - hotels[j])) + computePenalty(i));
                 //Console.WriteLine(b);
@@ -74,28 +69,8 @@ class Program
                 {
                     distances[j].Add(b);
                 }
-                //if (b < min)
-                //{
-                //    min = b;
-                //}
             }
-            //if (penalty.ContainsKey(i))
-            //{
-
-            //}
-            //else
-            //{
-            //    penalty.Add(i, min);
-            //}
         }
-        //if(penalty.Count > 0)
-        //{
-        //    return penalty.First().Value;
-        //}
-        //else
-        //{
-        //    return 0;
-        //}
         if (location == hotels.Count - 1)
         {
             return 0;
