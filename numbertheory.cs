@@ -102,25 +102,7 @@ class Program
             Console.WriteLine("no");
         }
     }
-    //public static BigInteger powerMod(BigInteger b, BigInteger e,BigInteger m)
-    //{
-    //    BigInteger x = 1;
-    //    while (e > 0)
-    //    {
-    //        if (e % 2 == 1)
-    //        {
-    //            e = (x * b) % m;
-    //            x = (x * b) % m;
-    //            e--;
-    //        }
-    //        else
-    //        {
-    //            e = (b * b) % m;
-    //            b = (b * b) % m;
-    //        }
-    //    }
-    //    return x;
-    //} 
+    
     private static System.Numerics.BigInteger inverse(System.Numerics.BigInteger a, System.Numerics.BigInteger N)
     {
         System.Numerics.BigInteger[] nums = new System.Numerics.BigInteger[3];
