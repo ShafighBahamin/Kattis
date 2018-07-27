@@ -19,26 +19,6 @@ class Program
             string[] integers = line.Split(new char[] { ' ' }, StringSplitOptions.None);
             numOfUniqueCielings(nodeList, unique, integers);
         }
-        //line = new string[] { "3", "1", "2", "40000", "60" };
-
-        //numOfUniqueCielings(nodeList, unique, line);
-
-        //line = new string[] { "3", "4", "2", "1", "20" };
-
-        //numOfUniqueCielings(nodeList, unique, line);
-
-        //line = new string[] { "33", "42", "17", "23", "25" };
-
-        //numOfUniqueCielings(nodeList, unique, line);
-
-        //line = new string[] { "42", "43", "56", "9634", "1" };
-
-        //numOfUniqueCielings(nodeList, unique, line);
-
-        //line = new string[] { "53", "9678", "5434", "24", "35" };
-
-        //numOfUniqueCielings(nodeList, unique, line);
-
         Console.WriteLine(unique.Count());
         Console.ReadLine();
     }
