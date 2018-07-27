@@ -9,13 +9,13 @@ class Program
 {
     static void Main(string[] args)
     {
-        System.IO.StreamReader file = new StreamReader("C:\\Users\\shafigh.bahamin\\Desktop\\samples\\sample.in");
+        //System.IO.StreamReader file = new StreamReader("C:\\Users\\shafigh.bahamin\\Desktop\\samples\\sample.in");
         Dictionary<string, int> words_to_num = new Dictionary<string, int>();
         Dictionary<int, string> num_to_words = new Dictionary<int, string>();
         string line;
         int num;
         string[] str_arr;
-        while ((line = file.ReadLine()) != null)
+        while ((line = Console.ReadLine()) != null)
         {
             if (line.Contains("def"))
             {
